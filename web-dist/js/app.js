@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     dom.window.scroll(function () {
 
-        if (dom.window.scrollTop() >= 300) {
+        if (dom.window.scrollTop() >= 100) {
             dom.navBarLogo.addClass('show');
         } else {
             dom.navBarLogo.removeClass('show');
