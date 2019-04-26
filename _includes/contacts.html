@@ -16,12 +16,22 @@
                     {{ site.phone }}
                 </a>
             </div>
+            {% if site.instagram %}
             <div class="col-md-6 col-sm-12 container-contacts-phone">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <a href="http://instagram.com/{{ site.instagram }}">
                     {{ site.instagram }}
                 </a>
             </div>
+            {% endif %}
+            {% if site.facebook %}
+            <div class="col-md-6 col-sm-12 container-contacts-phone">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="http://facebook.com/{{ site.facebook }}">
+                    {{ site.facebook }}
+                </a>
+            </div>
+            {% endif %}
             <div class="col-md-6 col-sm-12 container-contacts-phone">
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 <a href="https://www.etsy.com/shop/{{ site.etsy }}">
