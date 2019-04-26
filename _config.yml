@@ -8,18 +8,18 @@ headline: ModellistaIT
 description: > # this means to ignore newlines until "baseurl:"
   Modellista & sarta
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://emanuela.info" # the base hostname & protocol for your site
-copyright: 2017 - 2018. All Rights Reserved.
+url: "https://emanuela.info" # the base hostname & protocol for your site
+copyright: 2017 - 2019. All Rights Reserved.
 
 # Build settings
 markdown: kramdown
 
 # Account ids
-snapwidget: 418473
+snapwidget: 687665
 
 # Contacts
 email: dm@emanuela.info
-phone: +393480137944  +393772479874
+phone: +393772479874
 instagram: modellistait
 etsy: ModellistaIT
 
