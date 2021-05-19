@@ -9,7 +9,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Modellista & sarta
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://emanuela.info" # the base hostname & protocol for your site
-copyright: 2017 - 2019. All Rights Reserved.
+copyright:
+  year: 2017
+  message: All Rights Reserved
 
 # Build settings
 markdown: kramdown
