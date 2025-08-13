@@ -22,7 +22,9 @@ permalink: /
     <body>
         <div class="content">
             {% if site.front_img %}
-            <img src="{{ site.front_img_path }}" id="fullscreen">
+            <div class="img-wrap">
+                <img src="{{ site.front_img_path }}" id="fullscreen">
+            </div>
             {% endif %}
 
             {% if site.avatar %}

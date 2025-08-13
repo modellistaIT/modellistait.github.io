@@ -18,6 +18,22 @@ body {
     top: 0;
     left: 0;
 }
+.img-wrap {
+  position: relative;
+  display: inline-block;            /* o block, a seconda del layout */
+}
+.img-wrap img {
+  display: block;                   /* elimina lo spazio sotto l'immagine */
+  width: 100%;                      /* opzionale, per renderla responsive */
+  height: auto;
+}
+.img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;                         /* top/right/bottom/left: 0 */
+  background: rgba(30, 144, 255, .3);  /* blu con 30% di opacità */
+  pointer-events: none;             /* non blocca i click sull’immagine */
+}
 #avatar {
     height: 180px;
     border-radius: 100%;
